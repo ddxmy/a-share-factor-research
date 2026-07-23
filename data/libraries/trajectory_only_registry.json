@@ -1,0 +1,1227 @@
+{
+  "factor_count": 203,
+  "factors": [
+    {
+      "factor_id": "xzt_20260622_1",
+      "formula_hash": "0e474889004e59b667af2ca52778137c6d37c5ba06dff4352402ad4aebcf08df",
+      "script_path": "factor_script/V20260622/xzt_20260622_1.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_10",
+      "formula_hash": "196189c788ae15bcd9dc4ffe8418d2c429767d3376efbb032574bac283710911",
+      "script_path": "factor_script/V20260622/xzt_20260622_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_2",
+      "formula_hash": "f7bbaa834a27fc2d3660818e38880cdc31523adc8e009c09ff7749d8c3c62b23",
+      "script_path": "factor_script/V20260622/xzt_20260622_2.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_3",
+      "formula_hash": "5cbf678815bf7904b0556fa855f2620cae9bb8103007e6e4e26e22de80f7aa4f",
+      "script_path": "factor_script/V20260622/xzt_20260622_3.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_4",
+      "formula_hash": "0941cf3b89e9081771b2420c3dbf2cc9884f98d54e086a4cce2df13479237321",
+      "script_path": "factor_script/V20260622/xzt_20260622_4.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_5",
+      "formula_hash": "1ca65554e14219ac1729e157ddccee6ab0a395dcc681652cdf4a83072f6bac74",
+      "script_path": "factor_script/V20260622/xzt_20260622_5.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_7",
+      "formula_hash": "596bae7c89f2e40a8ce546a7ab685406f8869aea8a977feee1c0e7f3e02e264f",
+      "script_path": "factor_script/V20260622/xzt_20260622_7.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260622_8",
+      "formula_hash": "1bc8e15a99ef7e8ea15d72d70663ebb4f494e9b15b005b5177dcbabff6805c9b",
+      "script_path": "factor_script/V20260622/xzt_20260622_8.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_1",
+      "formula_hash": "fed15430bd7ee5c3182c030179d5de989848d5df436b19d97734585ee304714c",
+      "script_path": "factor_script/V20260701/jyb_20260701_1.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_10",
+      "formula_hash": "cedb50d3fd91e3a55a6aa3933caf9795bdb97bb740b578efb2cc654e49904852",
+      "script_path": "factor_script/V20260701/jyb_20260701_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_12",
+      "formula_hash": "ab3c714efb491fb7e6fc8772b4bd523a2ad3a76d379cec16f7ae31ef545791f3",
+      "script_path": "factor_script/V20260701/jyb_20260701_12.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_14",
+      "formula_hash": "02b1a4a50faaf4d3a05d1ca240470e566150f196e513ef75f13a25f051e3f45d",
+      "script_path": "factor_script/V20260701/jyb_20260701_14.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_16",
+      "formula_hash": "8add7bf87789380f5fbe5696cdf5d51f8fa425804c2eccaa0679b5a8fe850e4b",
+      "script_path": "factor_script/V20260701/jyb_20260701_16.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_18",
+      "formula_hash": "f5da40eda0b5e7d38b9ae747f34266d68e7be54b2e7f9f3c7a64d30abbb123c0",
+      "script_path": "factor_script/V20260701/jyb_20260701_18.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_2",
+      "formula_hash": "c129d3f8def623af3978fc2a37351b2c76a6e6090212a86ab0a1d31b53c37ce1",
+      "script_path": "factor_script/V20260701/jyb_20260701_2.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_21",
+      "formula_hash": "0f46987d0b68fc86e73e9cc24e1ffc5bb882b42fd3d106e1b147b6ca7ed0b97f",
+      "script_path": "factor_script/V20260701/jyb_20260701_21.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_23",
+      "formula_hash": "3989ef05873ff090d0e984530c691903007d22edb179d8347f8a6880ac0de885",
+      "script_path": "factor_script/V20260701/jyb_20260701_23.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_28",
+      "formula_hash": "c409ec5572151498340a5934c42b0b5d44ed727574bae2da1f03fbdb64f744e7",
+      "script_path": "factor_script/V20260701/jyb_20260701_28.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_3",
+      "formula_hash": "327df5cbee42f0e4c926df1cd388d9532507b7b38216cd2817604c5559cae0e4",
+      "script_path": "factor_script/V20260701/jyb_20260701_3.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_31",
+      "formula_hash": "33c53ea67d4f103964b63f4a5002be374b5d80b229e11c57393ff10f2f11e19b",
+      "script_path": "factor_script/V20260701/jyb_20260701_31.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_35",
+      "formula_hash": "62d5394904c4676fe4559ef43a6880ee105bb9dc7f3437f09a3c71f5ecef226d",
+      "script_path": "factor_script/V20260701/jyb_20260701_35.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_42",
+      "formula_hash": "389249f36023776b56ee78c0c40461d45e6710e21f7e541e753fe977bc352908",
+      "script_path": "factor_script/V20260701/jyb_20260701_42.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_54",
+      "formula_hash": "39130de1a4640dee4fc90c0aff2503f3d184d48b1dabd1587bab4ab4ee7527f6",
+      "script_path": "factor_script/V20260701/jyb_20260701_54.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_6",
+      "formula_hash": "80ad1063373ce698f439dca3ede8ff7a6e0ec10cce211ca973ab38dd8235ecdb",
+      "script_path": "factor_script/V20260701/jyb_20260701_6.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260701_9",
+      "formula_hash": "cf4f1bfb9159480fa79e5761221883f8fd00de03edb04e7b1391c7f41a50d397",
+      "script_path": "factor_script/V20260701/jyb_20260701_9.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260701_2",
+      "formula_hash": "797facc42771f415a12451dbdf927b0c9afd1dbebcf4338efabfce397a1a3e4a",
+      "script_path": "factor_script/V20260701/xzt_20260701_2.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "xzt_20260701_5",
+      "formula_hash": "c314c802ae48ee15d37bfe3dc845d283eb16192aa7443528b2482145d96e4f0d",
+      "script_path": "factor_script/V20260701/xzt_20260701_5.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_1",
+      "formula_hash": "669fee298f521337a6bc1e8bf427c49493d85b8bbf85cf0f679b5b170eb86605",
+      "script_path": "factor_script/V20260703/jyb_20260703_1.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_10",
+      "formula_hash": "25c322fe8af5cea43b503aa4f3193e99762d6cc160683b1116877a1007bc8c14",
+      "script_path": "factor_script/V20260703/jyb_20260703_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_11",
+      "formula_hash": "3e23bfb87d2c2779c51133d1c14e618544886df150637662de67e64f53adf272",
+      "script_path": "factor_script/V20260703/jyb_20260703_11.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_12",
+      "formula_hash": "cbcd750d0734ad251c6477f6c9ad85875600cfc9d15d3191afa5bc8b5a00f3ff",
+      "script_path": "factor_script/V20260703/jyb_20260703_12.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_13",
+      "formula_hash": "38ba10aa9308a0843f1cd9be0b525bc0dd49c3c8f5047bb6bdbeeee6a2b3e518",
+      "script_path": "factor_script/V20260703/jyb_20260703_13.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_17",
+      "formula_hash": "39bae7008ee7ed90c43959012d9aa335450d9e7d1e05b1b4a41e1c6760493fe8",
+      "script_path": "factor_script/V20260703/jyb_20260703_17.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_20",
+      "formula_hash": "3670a5aa60d2ef037535df14edcf1ea8ac0968a718e0ca1fc1d2dc284946e837",
+      "script_path": "factor_script/V20260703/jyb_20260703_20.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_22",
+      "formula_hash": "5fec83fd543527422afc9adfe402a10756ac514b49f4e609f1213ebdd277c5e0",
+      "script_path": "factor_script/V20260703/jyb_20260703_22.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_24",
+      "formula_hash": "62225923f2a9f9f09d7be1e3a4ffcfe9c6666fca228d85ec39a4b6dffa120e52",
+      "script_path": "factor_script/V20260703/jyb_20260703_24.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_3",
+      "formula_hash": "b06d40062ffbd7099b7fbccda68e533eb461da96dbcdab0583f2135b9e929ae3",
+      "script_path": "factor_script/V20260703/jyb_20260703_3.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_31",
+      "formula_hash": "67d94240ea9933f90b052adf855cca55c2751c6c5182fa5f5cda1b3a40820902",
+      "script_path": "factor_script/V20260703/jyb_20260703_31.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_34",
+      "formula_hash": "9d4017f2705acf5886895e96d9ea39938d506110e6cf2c6ca2cafcd3604377fc",
+      "script_path": "factor_script/V20260703/jyb_20260703_34.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_35",
+      "formula_hash": "65a5e63e6968f9aa89df1807b6670b57180eb61dca09391c69d0074aba96fd60",
+      "script_path": "factor_script/V20260703/jyb_20260703_35.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_38",
+      "formula_hash": "cd53d824c64ecb80ceac74262fe8b36d268382f27e00430c1fc320f99218a0a0",
+      "script_path": "factor_script/V20260703/jyb_20260703_38.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_39",
+      "formula_hash": "cc7de6a19a91e1cf44bbee44179d9439b5483372747f159a83f946403deb1ff7",
+      "script_path": "factor_script/V20260703/jyb_20260703_39.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_40",
+      "formula_hash": "eeeb24cb2829aafead983449528e3456c93e24cc109c51917206606e480b9b1e",
+      "script_path": "factor_script/V20260703/jyb_20260703_40.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_45",
+      "formula_hash": "e2ab51f2dbdd471548fbac4f0ef5bf744eadc6d728e935e82a6b77a0d59ae0cb",
+      "script_path": "factor_script/V20260703/jyb_20260703_45.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_46",
+      "formula_hash": "8fd415f2deb726ec26ffa6d98fef5fb882443702a840345a6ffdeced37150345",
+      "script_path": "factor_script/V20260703/jyb_20260703_46.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_7",
+      "formula_hash": "59786ffbb1f1009d603c733ae8d0654e31d975ccbadb04f9a0dd750f414b80fd",
+      "script_path": "factor_script/V20260703/jyb_20260703_7.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "jyb_20260703_8",
+      "formula_hash": "4db4a6d9a836028ce1daa8646c97eeb794df089ce87c4805ecef3a43322557df",
+      "script_path": "factor_script/V20260703/jyb_20260703_8.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_01",
+      "formula_hash": "915fb303d5b0c59c8afc0f86697c178d61d39578e27973d404fa334466ed01fc",
+      "script_path": "factor_script/V20260719/local_20260719_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_02",
+      "formula_hash": "370a7f4f28c370919b166fd860bf19795745298f7962203e4d6789d9f9a99307",
+      "script_path": "factor_script/V20260719/local_20260719_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_03",
+      "formula_hash": "052610cb4ffbfb103acfa42f2344576e6f4266adc8b194d7bb7a60125dc3c9c2",
+      "script_path": "factor_script/V20260719/local_20260719_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_04",
+      "formula_hash": "ba5f358c94f9e9156ac397cc3ae3b767afb34e4f7a5459ebb996d9b07df07c71",
+      "script_path": "factor_script/V20260719/local_20260719_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_05",
+      "formula_hash": "f52f4afcdf9dd6198ffadffa7029d8ca2c1dc4a2b84c3323aced17b5fa5d4d59",
+      "script_path": "factor_script/V20260719/local_20260719_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_06",
+      "formula_hash": "3b91bb48b3eeeb221b02ee8bfb6125ac3f4f855159f5cd860a2dc5f2b32820d5",
+      "script_path": "factor_script/V20260719/local_20260719_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_07",
+      "formula_hash": "b077d799b76feb26100b55090dd3810992d850c2ab4c955e3991d97175ff8e8e",
+      "script_path": "factor_script/V20260719/local_20260719_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_08",
+      "formula_hash": "096173f88efc129da90736ddbce87b95a34c5d5cebb1d82ec1ec4c44126bdf00",
+      "script_path": "factor_script/V20260719/local_20260719_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_09",
+      "formula_hash": "01fad2566bc27ec47323b2c11022945dc7b930957166710640945f7e80fd2d17",
+      "script_path": "factor_script/V20260719/local_20260719_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_10",
+      "formula_hash": "49d06b754eef401b28ca49a248fe1cdf0c3c89806ecf535af98f7d872ca0f01d",
+      "script_path": "factor_script/V20260719/local_20260719_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_11",
+      "formula_hash": "973543539e71414110ff8c305eb14f40f9da44b54237f4c4b2dd34f5f03608b2",
+      "script_path": "factor_script/V20260719/local_20260719_11.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_12",
+      "formula_hash": "6fa00d6c168f854267950ef1b99a4d9d1a279b1a47d719fc35c386cf2d29794d",
+      "script_path": "factor_script/V20260719/local_20260719_12.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_13",
+      "formula_hash": "f08fee2fb951955cb99a7dd0e09894f318120966ac0f96483a4de1fef84f1f6e",
+      "script_path": "factor_script/V20260719/local_20260719_13.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_14",
+      "formula_hash": "14cfccba97f957bdeedce134641ec7c2e9daf8f9656d67ddf676b193b5569020",
+      "script_path": "factor_script/V20260719/local_20260719_14.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_15",
+      "formula_hash": "6aa18e91a6433da6806c3eccff2f1e678af4450fdffd83c0200287f2cff6ede5",
+      "script_path": "factor_script/V20260719/local_20260719_15.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_16",
+      "formula_hash": "f66d91eccd00243ebf697995bfce22b590724d0fbbf919aa19be151eb24ea0dd",
+      "script_path": "factor_script/V20260719/local_20260719_16.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_17",
+      "formula_hash": "239b7a5030410669f091af792eb1f70f8268ac33261582ccd7231e1823105732",
+      "script_path": "factor_script/V20260719/local_20260719_17.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_18",
+      "formula_hash": "64fd2e3e9175a93771c576871121478d9c9ef8bc917aacf920728e53d4c70ed2",
+      "script_path": "factor_script/V20260719/local_20260719_18.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_19",
+      "formula_hash": "c7ab36e276763dc7786a465f620f592980fb397d8cc8d3ecebddaff9d8c95b87",
+      "script_path": "factor_script/V20260719/local_20260719_19.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_20",
+      "formula_hash": "aa3e0809b53ca8afe4bdce06d52505ea8e30ac77519f9707f65e54085cb29ef2",
+      "script_path": "factor_script/V20260719/local_20260719_20.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_21",
+      "formula_hash": "18deed2471a9b23cd2823d1da64c52b2c167cc3f2ea69d6c14122d67336fbf3d",
+      "script_path": "factor_script/V20260719/local_20260719_21.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_22",
+      "formula_hash": "88a3ccb46fc6d74a17fe89a3b510094ac4496bf7d5060de0ca0c5d244afa066e",
+      "script_path": "factor_script/V20260719/local_20260719_22.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_23",
+      "formula_hash": "8ffddf47ab7cdbaddd79e6abdbc449801c213d12d9bb55be077419365ea0e50c",
+      "script_path": "factor_script/V20260719/local_20260719_23.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_24",
+      "formula_hash": "05250f0351b02daf168d1599efd8ee7ce9181e6dc15724d4eef91791d960ec98",
+      "script_path": "factor_script/V20260719/local_20260719_24.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_25",
+      "formula_hash": "99cbac2ddd61f335b24df57f84416aabe1312f10119dd74f0746ae3fc74bf539",
+      "script_path": "factor_script/V20260719/local_20260719_25.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_26",
+      "formula_hash": "cc62fedcd135ca5baade322cd95ec8258930725b42e52266d0496238b2c67c5e",
+      "script_path": "factor_script/V20260719/local_20260719_26.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_27",
+      "formula_hash": "07cafd930d9af5cec726e3d414789714b6244c7c473f2b29cdcdefeb8f1d9c93",
+      "script_path": "factor_script/V20260719/local_20260719_27.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_28",
+      "formula_hash": "9b2be7d8abfd5138ef6da982d15773d52bcf50e242bda1ae2cb2d9682298d851",
+      "script_path": "factor_script/V20260719/local_20260719_28.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_29",
+      "formula_hash": "f86ed0dd4246c627ae9b4b0eeae8aecacf3ab0e1e46eb21721557ac5b45f734f",
+      "script_path": "factor_script/V20260719/local_20260719_29.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_30",
+      "formula_hash": "a80d8e90430a4a6b3f5e58fe3044dfccdbd66e459cd95e0b307f7aef20925adf",
+      "script_path": "factor_script/V20260719/local_20260719_30.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_31",
+      "formula_hash": "afd9757de415a73e6e5793cebb0049743cf5d633341a4c1c5ac36423ed31afa0",
+      "script_path": "factor_script/V20260719/local_20260719_31.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_32",
+      "formula_hash": "3023f31d95f801f60e82d57e13d7f179e64301739d700b32275867f66d241335",
+      "script_path": "factor_script/V20260719/local_20260719_32.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_33",
+      "formula_hash": "ba26326995a67cb5515406dba982a3da7ce5ed2aa72a795f1dd195c1d25ac969",
+      "script_path": "factor_script/V20260719/local_20260719_33.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_34",
+      "formula_hash": "e94a1f0f5426d73d9244a34f6720adc549d972e9a8e5183241df2bbed2999cdd",
+      "script_path": "factor_script/V20260719/local_20260719_34.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_35",
+      "formula_hash": "2f440bd72a57b73dbea140ef9e42149f3bf9a6f4590b58fa7ec5439995a76b84",
+      "script_path": "factor_script/V20260719/local_20260719_35.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_36",
+      "formula_hash": "1b6f185048c20644b4a15f219353417ed2b6f6ebfec0ee009308134dc9b9ece1",
+      "script_path": "factor_script/V20260719/local_20260719_36.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_37",
+      "formula_hash": "cdcb83a12d13dae1af93054c83aec2cd3c3cf55786108a81da129a0fcf55b385",
+      "script_path": "factor_script/V20260719/local_20260719_37.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_38",
+      "formula_hash": "e53dbddde02e33ee9b1b860e9af6bfdcfbe23d50bf9bd6d72e9917b858197e7c",
+      "script_path": "factor_script/V20260719/local_20260719_38.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_39",
+      "formula_hash": "e5bcd43baf16369b69d046c5e3197d8d98ef7ca5bb64eb554c26b85a62491841",
+      "script_path": "factor_script/V20260719/local_20260719_39.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_20260719_40",
+      "formula_hash": "19044b854012ca7796f1903ea00af01ca75d62230790c21b5aa75f5652ddc32a",
+      "script_path": "factor_script/V20260719/local_20260719_40.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_01",
+      "formula_hash": "c63542f98d0d2f2c26a3cfe782a245940259cbd007f48280376911c0452069d4",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_02",
+      "formula_hash": "eba2340db669464098ae9544f47322abec4d2305c3b6a74dd581a576eaba95da",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_03",
+      "formula_hash": "ef42b46e639aca98ea52e6a336ec48f16226996339aba3a80f3238ceeb0afde0",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_04",
+      "formula_hash": "0e329eac350ef8f6e642fa32028cc8b69dec5c3e0208e0642220a71bdf00b7f3",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_05",
+      "formula_hash": "d0774d2f2d6623bf22b7bd639ef4fe97390413d666e87a26ea32a41c51fdb50e",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_06",
+      "formula_hash": "ea0fd6de7c891a664389b4c9ed8f61fd08ea158046bd8eed9c1c3f3b81c6c64e",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_07",
+      "formula_hash": "5df01e96f408fc38cbd0ee1d10a204407ad8005287a96d0396061c8ee5efc65f",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_08",
+      "formula_hash": "67fc763cefb09903db3eaaef51db77bb2b855042088cc04b70a47e86219384c8",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_09",
+      "formula_hash": "13a9fa5ff2a93512b0d2231244487e6fd7388117a1bd549fb71c891159974acd",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b01_10",
+      "formula_hash": "d4a9cd5077458a226b94f1930926071ecda6403ae84838140cdc5d5a4649669d",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b01_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_01",
+      "formula_hash": "dc8ee44d66502c9ae61aa8ed00f3124d5f7638eac53c5b907e7124f67ac6dbc7",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_02",
+      "formula_hash": "09acab72910e8cb02d79baf0ea82720ea6bb1e6ca7c3ea4abf94bd486727575b",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_03",
+      "formula_hash": "20f7f4189b6ae7bc47b5c3c53023ed49adc9cde880fee0de59d7e9919f48ad58",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_05",
+      "formula_hash": "95f5044016dc2ba6a71b77a327bd5738f5509c745a1f75dbbca05c9700d9719e",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_06",
+      "formula_hash": "d8afe859b7c44d418e5319cb3709307b540a6d9285a88422528bbf3864f33e7c",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_08",
+      "formula_hash": "d53b8639d438b4aa14b5d20a5cdea856fdcb6fda4d8a42218268f7d873c0a8b6",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_09",
+      "formula_hash": "054e2ce0cdc52bfdf7d066edd29d11ee469163741d8445d0d695a9c3984772b8",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b02_10",
+      "formula_hash": "4b4025cf5b01e89a8266c9abdc271c0775d0c4ff6f2506059ee4d4b373fe2820",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b02_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_01",
+      "formula_hash": "600e3890fc465d56c9ff0fae367ddce9f00dd0a00b64469204b69c44cc41a4fb",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_02",
+      "formula_hash": "30e7ac78da88b9469d4cd3f06b56ad6833cb3b799dffac657f6b9f3e4b4b58a8",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_03",
+      "formula_hash": "602de968585f22611a9ce322374019f8b2508915896c7180c558bd8761c1f976",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_04",
+      "formula_hash": "24324f50a67be2c22a78aa96cf3a22a73d43b14b7804abc42ead8b183d90fa8d",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_05",
+      "formula_hash": "fa8cfc30ffa9822deb14ca06647ac110ffed45fb0361c6b6340301216b5809c7",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_06",
+      "formula_hash": "a9c8854be24d9b7a9e935cc5d345bda098a73ac49aeb264d22fb69382ba68ca2",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_07",
+      "formula_hash": "67da98d081eec98e7c1e6557862d29a013a18fde6c02f643647967edccbb4a32",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_08",
+      "formula_hash": "34b165fb4307cfe0a3aabf4ad06b9b17dfa85775d1d8b3a2a091f08ed3258e23",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_09",
+      "formula_hash": "0b5fdf27dfe5208ce57bfd9b49c23fa0c915d8f2d14c91068b7b0f5941db4b50",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b03_10",
+      "formula_hash": "b6b594bd2f786e7c5ccb8ed12c0462d929c6f36093d13695ca341f16714f5ad8",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b03_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_01",
+      "formula_hash": "27c01f291eccb0094cf336f42b95096180d4233ee6a57350700a54a143437df9",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_03",
+      "formula_hash": "2a420dbad8929774297b40ca65984894dd97ef0c5f65c24e97fd6c5ca8ed6f4f",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_04",
+      "formula_hash": "cc1ece02c1a41097738a48dcd56cb35cdaf4f6a7bd762681aa36f7c8ef2d2695",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_05",
+      "formula_hash": "024b3a24cf14753a554db23dde3d844c7ec06bc681b8a2bef50011c1cbbfc5a7",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_06",
+      "formula_hash": "894340bf950ced8d18feb43e21a651a102b6397976f756dfbf49989223549473",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_07",
+      "formula_hash": "5f4b5e52dcc13ef25fe7543108f5524fc3f025f3f0c3043cd8b8f7147381ee73",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_08",
+      "formula_hash": "c9edacfb3afcc45dd1b02fd0fb55a2e892f9a1c96a38ddea597ca6e99b8756ce",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_09",
+      "formula_hash": "8019e9806ebbe9ba54fee3c8729d8474c509ab104216f39fb1f362f430281547",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b04_10",
+      "formula_hash": "fa41def421681925cbd284b20c85bd491d9d852e5d0720e532164ffc879c0d3d",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b04_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_01",
+      "formula_hash": "b380eb7816ffee31c955b69d5a28ce4dc731e03c3b110bfabe4b945c8da359df",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_02",
+      "formula_hash": "bedc416be60120c468049b893b787d378231f1660a5bd0f4a4c6119ad5e967c8",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_03",
+      "formula_hash": "077e6c09d02c35182e097dd8f38270592db655aa6110d95d3ff6f58e4721432e",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_04",
+      "formula_hash": "13a51f5d1f25cc3cf182e1fd8417c3a452333e46aba1e16754f504c200d76672",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_05",
+      "formula_hash": "823bd084d161524a4d05a6f6362f6a1a50282c01eda578858c8a5bf73915b96c",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_06",
+      "formula_hash": "0359f86d65123ec46a2bfc8de81fd3eb13582476422b82bcdee3d06f53a12ff8",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_07",
+      "formula_hash": "d8ee080920876ebf254b28f52a0277f242f18fd1e350526cbed77507a2971193",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_08",
+      "formula_hash": "4e09e904db592fdc8e4c930394913984378732d4a6d7b32a583c665e32fc6d51",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_09",
+      "formula_hash": "3d48a397d24ecc4c662ea00bd950bb3b0444d01641dca8c64a8d72b6f1837564",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b05_10",
+      "formula_hash": "07da949962887e1069039f455db8c70897b1a0860656d89c41a79dc53226f0ec",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b05_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_01",
+      "formula_hash": "1bd4a57d30e20354622828de73296a646e11e7ba1a19b6e79527c2f82a65fda7",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_02",
+      "formula_hash": "c4540ca2cef0895083af4cc624c2d2d967b2d17c1cb2ce6739c52cd4ac88ed34",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_03",
+      "formula_hash": "fda5f2bd52c4564c2a019f1cca4ede0651f42c7e24e07b7a53ef6cad69855ebe",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_05",
+      "formula_hash": "bd8bf9ffe42e6766b359a836a0ed28806a61ba8b29e3900b9e666cacc9e813f2",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_06",
+      "formula_hash": "c34b6a2c780bcab23a9ce0ea4a86f38ec28092587f6cdc5576ebcec80de9321b",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_07",
+      "formula_hash": "ceb2e574573957643f837e9d19a6dc7bb813e026a65f77b5fd3108969bac47e2",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_08",
+      "formula_hash": "a6114b136bb60cf73322c5fa0a46a8785adc0a338a99334f4e0ba5287ce269cc",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_09",
+      "formula_hash": "c63c283dd0b907c280b8a9dd73f6c1a8d82fd475c90e9de2d938f766cabf83cf",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b06_10",
+      "formula_hash": "3f812840551dec01c74bfadc01e760f772a2499790329b353c7306ace69122a1",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b06_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_01",
+      "formula_hash": "b9b762e45e4b4fb99f46d45b6f9c0ba41119f62acb2900f1b69bcbcba9f660e4",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_02",
+      "formula_hash": "05ecec4c5766bdcf3c12aeaf16f5a01b4fcb6db2da1ca49679d61d31ffd146dc",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_03",
+      "formula_hash": "f9ccf6d31508ce074bb2f6122bb9b207a77eb3e6394c6c20a0860994d32075d5",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_05",
+      "formula_hash": "213ba56d5249c760ffe1102e20c5b646a3e9f2b27d413eb7a408d1f7039222d0",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_06",
+      "formula_hash": "5c5d21ef93ea9b76c0648daa24c8a429e0d2eff8d3e665a857bac8ccc0cd2b05",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_07",
+      "formula_hash": "7200d8d2499aead9b86232c5582fc9c4a062a037955009bed31e783d5a1428c9",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_08",
+      "formula_hash": "4c7e00e1a467a052da6c0328b8af9c1c7e13a7f9bcf70fda317bd5c92b31991c",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b07_09",
+      "formula_hash": "69651427146bd59d270d7779d5b1ce0691522cce165ab3164e8457d6d2fe0c81",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b07_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_01",
+      "formula_hash": "77bc446fdab6023b13ddb6e79530239c3959283c7dadfdf4ab6c474e39a2e1e7",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_02",
+      "formula_hash": "2c3d06da51dd8503bfd9b2e241b1f941c24355915296da153761c097d78a8d36",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_03",
+      "formula_hash": "b7aecd93499da1aca6570d5906de22eac81068c972ee774fb5e9b58942fc9454",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_04",
+      "formula_hash": "472a3cf1b764235ac6372c311b748239e54a8389f7e248e4405f32459d93d782",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_05",
+      "formula_hash": "4c9660a83e862c4a4f520942ce6a253167e3b87b998e492606b931b51b297ae5",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_06",
+      "formula_hash": "63e1ee46196331698f229707562d166a9df32e16d30cba69fdc51f3277225c50",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_07",
+      "formula_hash": "c7df3038b6e889b1b401fda2882203e07e69aed59a7c82989b37b2618f982f6a",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_08",
+      "formula_hash": "02fc73495903db7121b602d1881f32a6b870050402993facf128d4531f5d0e90",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_09",
+      "formula_hash": "6127a6192af960ba0a3356247126164c3fec2c25cce7c94128445a59e3ab8f76",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b08_10",
+      "formula_hash": "80c9bf0b763af765f799fa880196f79079ab9b1f7eaab0812d0044422d37dde2",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b08_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_01",
+      "formula_hash": "6f308e7a65999eb46fd842fdb8ff6277cea76416030b821560854ac39a832824",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_02",
+      "formula_hash": "2b387e96f91e21824b1770e9ac873bbc48174f96b5e69e6069914d033a805b88",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_03",
+      "formula_hash": "1c10bc860c996d5f48503e17c77dbea80a7f73634d90239a6ee728ba279f7806",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_04",
+      "formula_hash": "a8053bab2c0363a1e8db273237d1969ba95c39f3bb054c36a7e9316ee2d77b94",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_05",
+      "formula_hash": "f2b594f49107570f18f11268a88de23e6d178a0d2d59bdf39548ad49ce069c58",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_06",
+      "formula_hash": "06d435ccb1754e123b1ad665cdacf8fe97f60460a8cecafc870112bc76fe321c",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_07",
+      "formula_hash": "059c8cefd037674eb257f14960538c14399d37671f6cf169c4c3b92e08273362",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_08",
+      "formula_hash": "aeef77c084393b04863431ac23f9bfe87abc5a451427dd17941d205fbf726376",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_09",
+      "formula_hash": "ac8ecafc29b1d5033b1e6310c7962fca6379c0bb86c0a32ec1518651f5d475fa",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b09_10",
+      "formula_hash": "393661f9b84edd0eaf5cb8b50c2b3a68094f0991c09109321c13bd741468142a",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b09_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_01",
+      "formula_hash": "de0078e019eeedb2b36cf5f1665faac369071f384389f386a4144fc68035abfa",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_02",
+      "formula_hash": "5a03917fb68ec1ba999ab9a86fb10b01622503770c3a799f0aee8f1334118157",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_03",
+      "formula_hash": "1ecad9d8552a6fa5b81d9cbdc400c41768daeb760d0db6b8828b351cb7d1aca1",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_04",
+      "formula_hash": "88f7ea050e64e1db289f9c21122b7d2dc9c95084f0a5bf150f09b9144d3f121e",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_05",
+      "formula_hash": "9081487b3bb0d012185148bda8822288c39bf3b2f6305b4fbd63287d7554b0e1",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_06",
+      "formula_hash": "7fe03ef8a552087696913874a2c904ec3a04099c3e121b27a6ca49e8f515e41f",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_07",
+      "formula_hash": "7dd1bf29b2600ea4a551eeff79876da7fccfff537fcf1328253f4dbc74616f37",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_08",
+      "formula_hash": "4fd0a67f134ea2d06c69a5a430b519cd3a673d9b2c1ba56f1c76b200986399aa",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_09",
+      "formula_hash": "a8504599844fdc785edf110e0f250e2d003bfcf143f1ee98a3a0e87ee027906d",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b10_10",
+      "formula_hash": "a6111d3b92ed4215424964c0e092a3ab81cddc64600447d1d60fd96f2f6cd779",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b10_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_01",
+      "formula_hash": "5c80fc53c48202008f392790b73655115f3f7ff0d9554c86a6923115d6b82567",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_02",
+      "formula_hash": "e1a4d84b11d357816c7ce576e0db6439eafebbb824d25708cf510ff986c1585d",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_03",
+      "formula_hash": "085171fde773bec12a9011bb703c603dbec7a5272d0a12de8d1006d348ce8041",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_04",
+      "formula_hash": "ac90c44629ce2dbd484f5fd56e1f1a6851cd5bf5aad1d06e5bcb3f6ef4919525",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_05",
+      "formula_hash": "b8accba966b2ba646d10bb714568e3cce17ad49d738051bfc48e3b2cd2dd406c",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_06",
+      "formula_hash": "cd256a6afeacc989baf895cef3f7c8e7801ba7b7bc63ec4ca460424081eba7f4",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_07",
+      "formula_hash": "aa3ddd908a7c99cd0987199d71670a8e3bd36b52df292df7a7463907990e1691",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_08",
+      "formula_hash": "cab69870ec4ee423f441c8fce866840a66f24c8ed84c4438d7e51323ed210599",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_09",
+      "formula_hash": "9418197614fb318c755c3e4aba2595640635aa32701ce952478713aadbee5252",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b11_10",
+      "formula_hash": "c6d4773b23c46a8010106097bb7460263f21b39225e6017a5af6dc09bf32f0d0",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b11_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_01",
+      "formula_hash": "d7d682d743fc4612f8ab705532378e775fb52500f82f07e9bc010b48ba746453",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_01.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_02",
+      "formula_hash": "60f3aa8e4b7fadeb97facdd0978082bbe5e7b3bc72f46caf3f7da70941a6febb",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_02.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_03",
+      "formula_hash": "19f65ef33615e9d5ca479b81a3b59bb1aede10ad9533dd24e2966768e6b53190",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_03.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_04",
+      "formula_hash": "f1a741b2a82ac6a710a651a874c6f2d9d174e41ecf9e4d26f1175a2f3cb811c0",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_04.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_05",
+      "formula_hash": "36a7096790715a1f47e0b4b9571bd10f91eb2031a164256bf2032a20944c9930",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_05.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_06",
+      "formula_hash": "2557f23df8689f8a1e11b199721cbc172b86c64b62f70fad8d6fa9666e044fc7",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_06.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_07",
+      "formula_hash": "50e6db13141f6307e22cb89422980bc1605f0b17efdef87dfecab230920ef00c",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_07.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_08",
+      "formula_hash": "a0c0ec5fd2b1a883c11bb705805addc16a01a74283da699388d488061cd65cf0",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_08.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_09",
+      "formula_hash": "38e5d3a4b9e7b0d8c30da21bd5748e74d51e270b84d82f5855914eb67e3c1f8b",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_09.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "local_ralph_v2_b12_10",
+      "formula_hash": "88acabba72a3064a9c48c99d4db1072e6a2200116a04f25afc30ee1fc906aec4",
+      "script_path": "factor_script/V20260720_v2/local_ralph_v2_b12_10.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "Close_Position_Location_5d",
+      "formula_hash": "3c94ce63250a12baa781c37cda7747395761466c6c029d3fdd103fe3ae6006db",
+      "script_path": "factor_script/_retired/Close_Position_Location_5d.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    },
+    {
+      "factor_id": "Smoothed_Intraday_Range",
+      "formula_hash": "d3259ec2bece0f3e334f4775508dbc776edd59cd670caef78e33d9e40c705b53",
+      "script_path": "factor_script/_retired/Smoothed_Intraday_Range.py",
+      "status": "trajectory_only_not_active_under_current_protocol"
+    }
+  ],
+  "files_deleted": 0,
+  "library_kind": "trajectory_only",
+  "schema_version": "factor_library_registry_v1",
+  "status": "excluded_from_all_default_factor_selection"
+}

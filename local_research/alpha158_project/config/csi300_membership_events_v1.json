@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "index_code": "000300.SH",
+  "formal_signal_start": "2015-01-01",
+  "formal_signal_end": "2025-12-31",
+  "interval_semantics": "[effective_start, effective_end_exclusive)",
+  "baseline": {
+    "effective_start": "2015-01-01",
+    "snapshot_date": "2015-01-30",
+    "assumption": "The January 2015 snapshot is back-cast to the formal start after confirming that the January-April snapshots have identical membership and no change event is observed before May.",
+    "source": "Tushare index_weight_000300_SH frozen reference snapshot"
+  },
+  "regular_adjustments": {
+    "months": [
+      6,
+      12
+    ],
+    "effective_date_rule": "the next exchange trading day after the second Friday of June or December",
+    "source_url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/000300_Index_Methodology_cn.pdf",
+    "membership_delta_source": "difference between adjacent frozen Tushare monthly index-weight snapshots",
+    "expected_events_2015_2025": 22
+  },
+  "temporary_adjustments": [
+    {
+      "event_id": "TEMP_2015_05_20",
+      "effective_date": "2015-05-20",
+      "removed": [
+        "600832.SH",
+        "601299.SH"
+      ],
+      "added": [
+        "000738.SZ",
+        "300003.SZ"
+      ],
+      "reason": "China CNR and the former Oriental Pearl were delisted following absorption mergers.",
+      "effective_date_evidence": [
+        {
+          "authority": "Shanghai Stock Exchange and China Securities Index",
+          "url": "https://www.sse.com.cn/market/sseindex/diclosure/c/c_20150911_3985142.shtml",
+          "supports": "Index samples change from the delisting date."
+        },
+        {
+          "authority": "Shanghai Securities News reproducing the SSE delisting announcement",
+          "url": "https://paper.cnstock.com/html/2015-05/18/content_530710.htm",
+          "supports": "Oriental Pearl delisting date is 2015-05-20."
+        },
+        {
+          "authority": "Company announcement archive",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=1791463&stockid=600832",
+          "supports": "The original company announcement identifies 2015-05-20 as the delisting date."
+        }
+      ],
+      "membership_delta_evidence": "Frozen monthly snapshot change from 2015-04-30 to 2015-05-29."
+    },
+    {
+      "event_id": "TEMP_2017_02_14",
+      "effective_date": "2017-02-14",
+      "removed": [
+        "600005.SH"
+      ],
+      "added": [
+        "600549.SH"
+      ],
+      "reason": "Wuhan Iron and Steel was delisted following an absorption merger.",
+      "effective_date_evidence": [
+        {
+          "authority": "Shanghai Stock Exchange and China Securities Index",
+          "url": "https://www.sse.com.cn/market/sseindex/diclosure/c/c_20170209_4235948.shtml",
+          "supports": "The index adjustment takes effect on the 2017-02-14 delisting date."
+        },
+        {
+          "authority": "Shanghai Stock Exchange",
+          "url": "https://www.sse.com.cn/disclosure/announcement/listing/c/c_20170208_4235564.shtml",
+          "supports": "Wuhan Iron and Steel is delisted on 2017-02-14."
+        }
+      ],
+      "membership_delta_evidence": "Frozen monthly snapshot change from 2017-01-26 to 2017-02-28."
+    },
+    {
+      "event_id": "TEMP_2025_03_04",
+      "effective_date": "2025-03-04",
+      "removed": [
+        "600837.SH"
+      ],
+      "added": [
+        "601058.SH"
+      ],
+      "reason": "Haitong Securities was delisted following its absorption merger with Guotai Junan.",
+      "effective_date_evidence": [
+        {
+          "authority": "Shanghai Stock Exchange",
+          "url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20250226_10773005.shtml",
+          "supports": "Haitong Securities is delisted on 2025-03-04."
+        },
+        {
+          "authority": "Issuer report reproduced by Sina Finance",
+          "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-04/doc-inennqmm8628146.shtml",
+          "supports": "Sailun Group enters CSI 300 on 2025-03-04."
+        }
+      ],
+      "membership_delta_evidence": "Frozen monthly snapshot change from 2025-02-28 to 2025-03-31."
+    },
+    {
+      "event_id": "TEMP_2025_09_05",
+      "effective_date": "2025-09-05",
+      "removed": [
+        "601989.SH"
+      ],
+      "added": [
+        "601298.SH"
+      ],
+      "reason": "China Shipbuilding Industry was delisted following its absorption merger with China State Shipbuilding.",
+      "effective_date_evidence": [
+        {
+          "authority": "Shanghai Stock Exchange",
+          "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20250829_10790128.shtml",
+          "supports": "China Shipbuilding Industry is delisted on 2025-09-05."
+        },
+        {
+          "authority": "Issuer report reproduced by Sina Finance",
+          "url": "https://finance.sina.com.cn/stock/relnews/hk/2025-09-08/doc-infpuftn6264331.shtml",
+          "supports": "Qingdao Port enters CSI 300 on 2025-09-05."
+        }
+      ],
+      "membership_delta_evidence": "Frozen monthly snapshot change from 2025-08-29 to 2025-09-30."
+    }
+  ],
+  "evidence_policy": {
+    "effective_date_priority": [
+      "official index announcement",
+      "official exchange delisting announcement",
+      "issuer announcement"
+    ],
+    "membership_delta_priority": [
+      "frozen Tushare index-weight snapshot difference",
+      "official index adjustment attachment"
+    ],
+    "unresolved_event_policy": "block_G1_instead_of_guessing"
+  }
+}

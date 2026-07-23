@@ -1,0 +1,280 @@
+{
+  "version": "a_share_evaluator_controls_v1",
+  "as_of": "2026-07-22",
+  "purpose": "Fixed controls for calibrating hs300_daily_evaluator_v1; never merge these records into candidate FDR or the local factor library.",
+  "primary_universe": "000300.SH",
+  "discovery": ["2016-01-01", "2020-12-31"],
+  "factor_validation": ["2021-01-01", "2022-12-31"],
+  "transfer_universes": ["000905.SH", "LIQUID_ALL_A_TOP1000"],
+  "noise": {
+    "count": 20,
+    "seed": 20260722,
+    "construction": "sha256(date|ticker|seed|control_id) mapped deterministically to a standard normal score",
+    "expected_role": "negative_control"
+  },
+  "acceptance": {
+    "minimum_formula_completion_rate": 0.95,
+    "minimum_formula_score_completeness": 0.99,
+    "minimum_formula_available_gate_passes": 1,
+    "maximum_noise_available_gate_pass_rate": 0.05,
+    "maximum_noise_qualified_and_gate_pass_rate": 0.0,
+    "required_invalid_rejection_rate": 1.0,
+    "required_future_leak_admissions": 0
+  },
+  "formula_controls": [
+    {
+      "control_id": "classic_value_pb",
+      "library": "classic",
+      "family": "value",
+      "name": "Low price-to-book",
+      "formula": "Neg(Cs_Rank(pb))",
+      "economic_hypothesis": "Cheaper book-value multiples may earn a value premium after industry and size controls.",
+      "parameter_free": true
+    },
+    {
+      "control_id": "classic_dividend_yield",
+      "library": "classic",
+      "family": "value_income",
+      "name": "Dividend yield",
+      "formula": "Cs_Rank(dv_ttm)",
+      "economic_hypothesis": "Higher trailing dividend yield may proxy for value and shareholder payout.",
+      "parameter_free": true
+    },
+    {
+      "control_id": "classic_momentum_20",
+      "library": "classic",
+      "family": "momentum",
+      "name": "Twenty-day momentum",
+      "formula": "Cs_Rank(Ts_Return(close, 20))",
+      "economic_hypothesis": "Recent medium-horizon winners may continue because information diffuses gradually.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Cs_Rank(Ts_Return(close, 10))"},
+        {"variant": "long", "formula": "Cs_Rank(Ts_Return(close, 30))"}
+      ]
+    },
+    {
+      "control_id": "classic_reversal_5",
+      "library": "classic",
+      "family": "reversal",
+      "name": "Five-day reversal",
+      "formula": "Neg(Cs_Rank(Ts_Return(close, 5)))",
+      "economic_hypothesis": "Very short-horizon price moves may reverse because of temporary liquidity pressure.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Neg(Cs_Rank(Ts_Return(close, 3)))"},
+        {"variant": "long", "formula": "Neg(Cs_Rank(Ts_Return(close, 10)))"}
+      ]
+    },
+    {
+      "control_id": "classic_low_vol_20",
+      "library": "classic",
+      "family": "low_volatility",
+      "name": "Twenty-day low volatility",
+      "formula": "Neg(Cs_Rank(Ts_Std(Returns, 20, 10)))",
+      "economic_hypothesis": "Lower idiosyncratic volatility may outperform because high-volatility stocks are overpriced.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Neg(Cs_Rank(Ts_Std(Returns, 10, 5)))"},
+        {"variant": "long", "formula": "Neg(Cs_Rank(Ts_Std(Returns, 30, 15)))"}
+      ]
+    },
+    {
+      "control_id": "classic_low_turnover_20",
+      "library": "classic",
+      "family": "liquidity",
+      "name": "Twenty-day low turnover",
+      "formula": "Neg(Cs_Rank(Ts_Mean(turn, 20, 10)))",
+      "economic_hypothesis": "Low turnover may capture an illiquidity premium or reduced speculative demand.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Neg(Cs_Rank(Ts_Mean(turn, 10, 5)))"},
+        {"variant": "long", "formula": "Neg(Cs_Rank(Ts_Mean(turn, 30, 15)))"}
+      ]
+    },
+    {
+      "control_id": "classic_vwap_reversal_10",
+      "library": "classic",
+      "family": "price_pressure_reversal",
+      "name": "VWAP displacement reversal",
+      "formula": "Neg(Cs_Rank(Ts_Mean(Div(Sub(close, vwap), vwap), 10, 5)))",
+      "economic_hypothesis": "Persistent closes above VWAP may reflect temporary buying pressure that subsequently reverses.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Neg(Cs_Rank(Ts_Mean(Div(Sub(close, vwap), vwap), 5, 3)))"},
+        {"variant": "long", "formula": "Neg(Cs_Rank(Ts_Mean(Div(Sub(close, vwap), vwap), 20, 10)))"}
+      ]
+    },
+    {
+      "control_id": "classic_volume_price_corr_20",
+      "library": "classic",
+      "family": "volume_price",
+      "name": "Price-volume correlation",
+      "formula": "Ts_Correlation(close, Log(Add(volume, 1)), 20, 10)",
+      "economic_hypothesis": "The sign and persistence of price-volume co-movement can distinguish informed demand from exhaustion.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Ts_Correlation(close, Log(Add(volume, 1)), 10, 5)"},
+        {"variant": "long", "formula": "Ts_Correlation(close, Log(Add(volume, 1)), 30, 15)"}
+      ]
+    },
+    {
+      "control_id": "alpha158_kmid",
+      "library": "alpha158_representative",
+      "family": "kbar",
+      "name": "KMID",
+      "formula": "Div(Sub(close, open), open)",
+      "economic_hypothesis": "Intraday candle body captures directional close-to-open pressure.",
+      "parameter_free": true
+    },
+    {
+      "control_id": "alpha158_klen",
+      "library": "alpha158_representative",
+      "family": "kbar",
+      "name": "KLEN",
+      "formula": "Div(Sub(high, low), open)",
+      "economic_hypothesis": "The normalized daily range measures intraday uncertainty and attention.",
+      "parameter_free": true
+    },
+    {
+      "control_id": "alpha158_kup2",
+      "library": "alpha158_representative",
+      "family": "kbar",
+      "name": "KUP2",
+      "formula": "Div(Sub(high, Max(open, close)), Add(Sub(high, low), 0.000000000001))",
+      "economic_hypothesis": "The upper wick share measures rejected upward price pressure.",
+      "parameter_free": true
+    },
+    {
+      "control_id": "alpha158_ksft2",
+      "library": "alpha158_representative",
+      "family": "kbar",
+      "name": "KSFT2",
+      "formula": "Div(Sub(Mul(2, close), Add(high, low)), Add(Sub(high, low), 0.000000000001))",
+      "economic_hypothesis": "The close location within the daily range measures end-of-day directional control.",
+      "parameter_free": true
+    },
+    {
+      "control_id": "alpha158_roc20",
+      "library": "alpha158_representative",
+      "family": "trend",
+      "name": "ROC20",
+      "formula": "Div(Ts_Delay(close, 20), close)",
+      "economic_hypothesis": "Past price relative to current price encodes medium-horizon trend and reversal information.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Ts_Delay(close, 10), close)"},
+        {"variant": "long", "formula": "Div(Ts_Delay(close, 30), close)"}
+      ]
+    },
+    {
+      "control_id": "alpha158_ma20",
+      "library": "alpha158_representative",
+      "family": "trend",
+      "name": "MA20",
+      "formula": "Div(Ts_Mean(close, 20, 10), close)",
+      "economic_hypothesis": "Moving-average distance summarizes the position of current price within its recent trend.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Ts_Mean(close, 10, 5), close)"},
+        {"variant": "long", "formula": "Div(Ts_Mean(close, 30, 15), close)"}
+      ]
+    },
+    {
+      "control_id": "alpha158_std20",
+      "library": "alpha158_representative",
+      "family": "volatility",
+      "name": "STD20",
+      "formula": "Div(Ts_Std(close, 20, 10), close)",
+      "economic_hypothesis": "Normalized price dispersion captures recent volatility regime.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Ts_Std(close, 10, 5), close)"},
+        {"variant": "long", "formula": "Div(Ts_Std(close, 30, 15), close)"}
+      ]
+    },
+    {
+      "control_id": "alpha158_rsv20",
+      "library": "alpha158_representative",
+      "family": "range_position",
+      "name": "RSV20",
+      "formula": "Div(Sub(close, Ts_Min(low, 20, 10)), Add(Sub(Ts_Max(high, 20, 10), Ts_Min(low, 20, 10)), 0.000000000001))",
+      "economic_hypothesis": "Price location within its recent high-low range captures breakout or exhaustion pressure.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Sub(close, Ts_Min(low, 10, 5)), Add(Sub(Ts_Max(high, 10, 5), Ts_Min(low, 10, 5)), 0.000000000001))"},
+        {"variant": "long", "formula": "Div(Sub(close, Ts_Min(low, 30, 15)), Add(Sub(Ts_Max(high, 30, 15), Ts_Min(low, 30, 15)), 0.000000000001))"}
+      ]
+    },
+    {
+      "control_id": "alpha158_corr20",
+      "library": "alpha158_representative",
+      "family": "volume_price",
+      "name": "CORR20",
+      "formula": "Ts_Correlation(close, Log(Add(volume, 1)), 20, 10)",
+      "economic_hypothesis": "Rolling correlation between price level and log volume summarizes participation in the trend.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Ts_Correlation(close, Log(Add(volume, 1)), 10, 5)"},
+        {"variant": "long", "formula": "Ts_Correlation(close, Log(Add(volume, 1)), 30, 15)"}
+      ]
+    },
+    {
+      "control_id": "alpha158_vma20",
+      "library": "alpha158_representative",
+      "family": "volume",
+      "name": "VMA20",
+      "formula": "Div(Ts_Mean(volume, 20, 10), Add(volume, 0.000000000001))",
+      "economic_hypothesis": "Current volume relative to its moving average captures abnormal participation.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Ts_Mean(volume, 10, 5), Add(volume, 0.000000000001))"},
+        {"variant": "long", "formula": "Div(Ts_Mean(volume, 30, 15), Add(volume, 0.000000000001))"}
+      ]
+    },
+    {
+      "control_id": "alpha158_vstd20",
+      "library": "alpha158_representative",
+      "family": "volume",
+      "name": "VSTD20",
+      "formula": "Div(Ts_Std(volume, 20, 10), Add(volume, 0.000000000001))",
+      "economic_hypothesis": "Normalized volume dispersion measures instability in trading participation.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Ts_Std(volume, 10, 5), Add(volume, 0.000000000001))"},
+        {"variant": "long", "formula": "Div(Ts_Std(volume, 30, 15), Add(volume, 0.000000000001))"}
+      ]
+    },
+    {
+      "control_id": "alpha158_wvma20",
+      "library": "alpha158_representative",
+      "family": "volume_volatility",
+      "name": "WVMA20",
+      "formula": "Div(Ts_Std(Mul(Abs(Ts_Return(close, 1)), volume), 20, 10), Add(Ts_Mean(Mul(Abs(Ts_Return(close, 1)), volume), 20, 10), 0.000000000001))",
+      "economic_hypothesis": "Variation in volume-weighted absolute returns measures unstable price discovery.",
+      "formula_variants": [
+        {"variant": "short", "formula": "Div(Ts_Std(Mul(Abs(Ts_Return(close, 1)), volume), 10, 5), Add(Ts_Mean(Mul(Abs(Ts_Return(close, 1)), volume), 10, 5), 0.000000000001))"},
+        {"variant": "long", "formula": "Div(Ts_Std(Mul(Abs(Ts_Return(close, 1)), volume), 30, 15), Add(Ts_Mean(Mul(Abs(Ts_Return(close, 1)), volume), 30, 15), 0.000000000001))"}
+      ]
+    }
+  ],
+  "invalid_controls": [
+    {
+      "control_id": "invalid_scalar_constant",
+      "kind": "formula",
+      "formula": "1.0",
+      "expected_rejection": "non_panel_output"
+    },
+    {
+      "control_id": "invalid_cross_section_constant",
+      "kind": "formula",
+      "formula": "Cs_Mean(close)",
+      "expected_rejection": "insufficient_cross_sectional_uniqueness"
+    },
+    {
+      "control_id": "invalid_future_label_leak",
+      "kind": "future_label",
+      "formula": "next_open_to_close",
+      "expected_rejection": "future_or_label_field"
+    },
+    {
+      "control_id": "invalid_unavailable_field",
+      "kind": "formula",
+      "formula": "Cs_Rank(roe_ttm)",
+      "expected_rejection": "unknown_or_unavailable_field"
+    }
+  ],
+  "alpha158_source": {
+    "project": "Microsoft Qlib",
+    "path": "qlib/contrib/data/loader.py::Alpha158DL.get_feature_config",
+    "url": "https://github.com/microsoft/qlib/blob/main/qlib/contrib/data/loader.py",
+    "scope_note": "This is a fixed representative subset for evaluator calibration, not the full Alpha158 benchmark used in later model comparison."
+  }
+}

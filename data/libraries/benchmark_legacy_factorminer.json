@@ -1,0 +1,54 @@
+{
+  "factor_count": 4,
+  "factors": [
+    {
+      "factor_id": "xzt_20260707_1",
+      "factor_name": "Smoothed_VWAP_Deviation",
+      "formula": "Cs_Rank(Ts_EMA(Div(Sub(close, vwap), vwap), 5))",
+      "formula_hash": "cc6b9d2ce2eaeef2e0733c65ab34840a2916e7b0c659cb769fb44b0147eb9248",
+      "legacy_numeric_id": 2,
+      "library_role": "benchmark_only",
+      "script_path": "factor_script/V20260707/xzt_20260707_1.py",
+      "status": "legacy_score_not_comparable_to_local_score",
+      "tot_score": 52.0
+    },
+    {
+      "factor_id": "xzt_20260707_2",
+      "factor_name": "VWAP_ZScore_Mean_Reversion",
+      "formula": "Neg(Ts_ZScore(Div(Sub(close, vwap), vwap), 20))",
+      "formula_hash": "9a69d1542b9d04b432ca0936254e89903b16b1f3347ae14824460a7c38af2831",
+      "legacy_numeric_id": 3,
+      "library_role": "benchmark_only",
+      "script_path": "factor_script/V20260707/xzt_20260707_2.py",
+      "status": "legacy_score_not_comparable_to_local_score",
+      "tot_score": 43.2
+    },
+    {
+      "factor_id": "xzt_20260707_3",
+      "factor_name": "Long_Horizon_Intraday_Range",
+      "formula": "Ts_EMA(Div(Sub(high, low), close), 20)",
+      "formula_hash": "23863936802ed72041ebfd02195f4142cd833270f54998c3a377e8c4466fe96e",
+      "legacy_numeric_id": 4,
+      "library_role": "benchmark_only",
+      "script_path": "factor_script/V20260707/xzt_20260707_3.py",
+      "status": "legacy_score_not_comparable_to_local_score",
+      "tot_score": 72.78
+    },
+    {
+      "factor_id": "xzt_20260707_4",
+      "factor_name": "Multi-Scale Position Location",
+      "formula": "Add(Div(Sub(close, Ts_Min(low, 5)), Sub(Ts_Max(high, 5), Ts_Min(low, 5))), Div(Sub(close, Ts_Min(low, 10)), Sub(Ts_Max(high, 10), Ts_Min(low, 10))))",
+      "formula_hash": "70ad89c755f5f7792250ef697530622433567ab4eded718021025d48ddd3bd7f",
+      "legacy_numeric_id": 5,
+      "library_role": "benchmark_only",
+      "script_path": "factor_script/V20260707/xzt_20260707_4.py",
+      "status": "legacy_score_not_comparable_to_local_score",
+      "tot_score": 69.83
+    }
+  ],
+  "formal_admission_count": 0,
+  "library_kind": "benchmark_control",
+  "schema_version": "factor_library_registry_v1",
+  "source_artifact": "data/factor_library.json",
+  "status": "frozen_legacy_benchmark"
+}

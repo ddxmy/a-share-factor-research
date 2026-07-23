@@ -1,0 +1,57 @@
+{
+  "status": "frozen",
+  "evaluator_version": "hs300_daily_evaluator_v1",
+  "frozen_at": "2026-07-22T17:29:27.717389+08:00",
+  "thresholds_changed_during_calibration": false,
+  "score_config": {
+    "path": "skills/a-share-factor-miner/references/quality_score_v1.json",
+    "sha256": "55e1250078d34996565fcf35e379a4e89ad4fd05472f323c0ef55e4d215bed5a"
+  },
+  "controls": {
+    "version": "a_share_evaluator_controls_v1",
+    "path": "skills/a-share-factor-miner/references/calibration_controls_v1.json",
+    "sha256": "662589a31d1689ea2b8fb611a978d1dcb5f7ee32e016ab84cb4ee7fad6e69f75"
+  },
+  "calibration_report": {
+    "path": "local_research/results/evaluator_calibration_v1_20260722/calibration_report.json",
+    "sha256": "32cefe79f5f37faacf0976fb154d348bdded5fcae40e3845466bcf7679193743",
+    "freeze_decision": true
+  },
+  "calibration_scores": {
+    "path": "local_research/results/evaluator_calibration_v1_20260722/calibration_control_scores.csv",
+    "sha256": "627d07a2a7100c11ed8199cee2b28b612564dba19276bef9c7cc11805e11557e"
+  },
+  "invalid_control_audit": {
+    "path": "local_research/results/evaluator_calibration_v1_20260722/invalid_control_audit.csv",
+    "sha256": "caf2a1ba84c3b4121d74be7455cc3dd6cb79da511c2124b3a322bfdc0b76a20b"
+  },
+  "implementation": {
+    "calibration_runner": {
+      "path": "skills/a-share-factor-miner/scripts/run_evaluator_calibration.py",
+      "sha256": "d7d11df33c98e53057f2815a1370763762a273b3087c360727f01bbe7e756875"
+    },
+    "primary_evaluator": {
+      "path": "local_research/formal_pipeline/evaluate_factors.py",
+      "sha256": "ac20523baded464689677f00b0d728908237ba99b47ee1a080ad6c0614de9428"
+    }
+  },
+  "data_binding": {
+    "snapshot": "tushare-silver-2015-01-05-2026-07-16-86b4445468cf2907",
+    "label_version": "next_open_close_v1",
+    "hs300_panel_sha256": "bf785700a0ed51cd56a9afb93cec1aab763fa3e9775eb9cea3ed1957adec1fb0",
+    "csi500_panel_sha256": "d9966a8224bd0bed2015c70bf2f52531d46a62c52521d61712c0d4ff4e04ced4",
+    "liquid_all_a_panel_sha256": "708be85fcbcdcaa745f8016c6b6fca7aee4dda8d7211311538830f39c32950f3"
+  },
+  "calibration_summary": {
+    "formula_controls_completed": 20,
+    "noise_controls_completed": 20,
+    "invalid_controls_rejected": 4,
+    "formula_available_gate_passes": 4,
+    "noise_available_gate_pass_rate": 0.0,
+    "noise_qualified_and_gate_pass_rate": 0.0,
+    "future_leak_admissions": 0,
+    "candidate_history_fdr_contaminated": false,
+    "synthesis_validation_opened": false,
+    "lockbox_opened": false
+  }
+}

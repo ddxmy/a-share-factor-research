@@ -1,0 +1,61 @@
+{
+  "version": "hs300_daily_evaluator_v1",
+  "status": "frozen_for_new_campaigns",
+  "frozen_at": "2026-07-22T17:28:09+08:00",
+  "calibration": {
+    "controls_version": "a_share_evaluator_controls_v1",
+    "controls_path": "references/calibration_controls_v1.json",
+    "evidence_path": "local_research/results/evaluator_calibration_v1_20260722/calibration_report.json",
+    "thresholds_changed_during_calibration": false,
+    "candidate_history_fdr_contaminated": false,
+    "synthesis_validation_opened": false,
+    "lockbox_opened": false
+  },
+  "score_bands": {
+    "research": 55.0,
+    "qualified": 65.0,
+    "strong": 75.0,
+    "core": 85.0
+  },
+  "hard_gates": {
+    "min_coverage": 0.95,
+    "min_discovery_rank_ic": 0.01,
+    "min_validation_rank_ic": 0.01,
+    "min_positive_halfyear_ratio": 0.75,
+    "min_newey_west_t": 2.5,
+    "max_fdr_q": 0.10,
+    "min_neutralization_retention": 0.40,
+    "hard_duplicate_correlation": 0.95,
+    "dedup_correlation": 0.50,
+    "min_replacement_score_improvement": 5.0,
+    "min_replacement_ic_improvement": 0.10
+  },
+  "metrics": [
+    {"name": "discovery_rank_ic", "section": "predictive", "weight": 8.0, "low": 0.005, "high": 0.03, "direction": "higher"},
+    {"name": "validation_rank_ic", "section": "predictive", "weight": 15.0, "low": 0.005, "high": 0.03, "direction": "higher"},
+    {"name": "validation_icir", "section": "predictive", "weight": 8.0, "low": 0.05, "high": 0.20, "direction": "higher"},
+    {"name": "ic_retention", "section": "predictive", "weight": 4.0, "low": 0.30, "high": 0.80, "direction": "higher"},
+    {"name": "monthly_ic_hit_rate", "section": "stability", "weight": 7.0, "low": 0.50, "high": 0.65, "direction": "higher"},
+    {"name": "positive_halfyear_ratio", "section": "stability", "weight": 7.0, "low": 0.50, "high": 1.00, "direction": "higher"},
+    {"name": "worst_halfyear_ic", "section": "stability", "weight": 6.0, "low": -0.005, "high": 0.01, "direction": "higher"},
+    {"name": "parameter_stability", "section": "stability", "weight": 5.0, "low": 0.50, "high": 1.00, "direction": "higher"},
+    {"name": "quantile_monotonicity", "section": "portfolio", "weight": 5.0, "low": 0.20, "high": 0.90, "direction": "higher"},
+    {"name": "net_sharpe_10bps", "section": "portfolio", "weight": 5.0, "low": 0.00, "high": 1.50, "direction": "higher"},
+    {"name": "cost_retention_20bps", "section": "portfolio", "weight": 3.0, "low": 0.00, "high": 0.70, "direction": "higher"},
+    {"name": "max_drawdown_abs", "section": "portfolio", "weight": 2.0, "low": 0.10, "high": 0.40, "direction": "lower"},
+    {"name": "neutralization_retention", "section": "robustness", "weight": 6.0, "low": 0.30, "high": 0.80, "direction": "higher"},
+    {"name": "csi500_rank_ic", "section": "robustness", "weight": 3.0, "low": 0.00, "high": 0.02, "direction": "higher"},
+    {"name": "liquid_all_a_rank_ic", "section": "robustness", "weight": 2.0, "low": 0.00, "high": 0.02, "direction": "higher"},
+    {"name": "secondary_label_rank_ic", "section": "robustness", "weight": 4.0, "low": 0.00, "high": 0.02, "direction": "higher"},
+    {"name": "max_abs_library_correlation", "section": "independence", "weight": 6.0, "low": 0.30, "high": 0.80, "direction": "lower"},
+    {"name": "average_daily_turnover", "section": "implementation", "weight": 2.0, "low": 0.20, "high": 1.00, "direction": "lower"},
+    {"name": "average_signal_coverage", "section": "implementation", "weight": 2.0, "low": 0.95, "high": 0.995, "direction": "higher"}
+  ],
+  "red_sea": {
+    "pass_threshold": 65.0,
+    "correlation_threshold": 0.50,
+    "score_delta": 5.0,
+    "recent_window": 20,
+    "forbidden_threshold": 0.70
+  }
+}

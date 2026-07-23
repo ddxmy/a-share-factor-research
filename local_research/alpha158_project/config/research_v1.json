@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "research_id": "hs300_alpha158_weekly_v1",
+  "status": "frozen",
+  "frozen_on": "2026-07-23",
+  "title": "基于Alpha158与机器学习的沪深300截面收益预测和指数增强研究",
+  "research_questions": [
+    "Alpha158能否预测沪深300成分股未来一周的截面收益排序",
+    "LightGBM相对Ridge是否有稳定且显著的样本外增益",
+    "预测增益在中性化、交易约束、换手和成本后是否仍然存在"
+  ],
+  "data": {
+    "formal_source": {
+      "kind": "tushare_data_lake",
+      "root": "/Users/mingyuxu/Desktop/因子挖掘/data_lake/tushare",
+      "snapshot_id": "tushare-silver-2015-01-05-2026-07-16-86b4445468cf2907",
+      "quality_status": "pass",
+      "query_engine": "duckdb"
+    },
+    "audit_source": {
+      "kind": "third_party_duckdb",
+      "path": "/Users/mingyuxu/Desktop/数据库/每日个股日线行情数据duckDB/daily_adj_19901219_20260722.duckdb",
+      "formal_model_input": false,
+      "allowed_uses": [
+        "cross_source_coverage_check",
+        "price_and_adjustment_diagnostics",
+        "missing_record_investigation"
+      ]
+    },
+    "formal_sample": {
+      "start": "2015-01-01",
+      "end": "2025-12-31",
+      "observation_after_end": "forward_observation_only"
+    },
+    "required_domains": [
+      "equity_daily",
+      "adj_factor",
+      "daily_basic_total_mv",
+      "index_daily_000300_SH",
+      "index_weight_000300_SH",
+      "trade_calendar",
+      "suspend_d",
+      "stk_limit",
+      "industry_membership_sw2021_l1"
+    ]
+  },
+  "universe": {
+    "index_code": "000300.SH",
+    "name": "沪深300",
+    "membership_mode": "point_in_time_effective_intervals",
+    "current_membership_backfill_forbidden": true,
+    "minimum_valid_history_trading_days": 60,
+    "regular_rebalance_rule": "June_and_December_second_Friday_close_effective_next_trading_day",
+    "temporary_adjustments_require_event_verification": true,
+    "known_temporary_adjustment_windows": [
+      "2015-05",
+      "2017-02",
+      "2025-03",
+      "2025-09"
+    ]
+  },
+  "sampling": {
+    "frequency": "weekly",
+    "signal_time": "last_trading_day_of_week_close",
+    "entry_time": "next_trading_day_open",
+    "exit_time": "next_week_signal_following_trading_day_open"
+  },
+  "label": {
+    "name": "next_rebalance_open_to_open_excess_return",
+    "stock_return": "stock_exit_open / stock_entry_open - 1",
+    "benchmark_return": "csi300_exit_open / csi300_entry_open - 1",
+    "target": "stock_return - benchmark_return",
+    "purge_rule": "label_end_date_must_be_strictly_before_next_segment_start"
+  },
+  "features": {
+    "library": "Microsoft_Qlib_Alpha158",
+    "expected_count": 158,
+    "custom_factors_allowed": false,
+    "fundamental_features_allowed": false,
+    "lookback_trading_days": 60,
+    "adjustment_convention": {
+      "status": "must_pass_qlib_parity_gate_before_full_build",
+      "price": "point_in_time_continuous_adjusted_OHLC_and_VWAP",
+      "volume": "bind_exact_convention_after_Qlib_sample_parity"
+    },
+    "cross_sectional_preprocessing": [
+      "replace_infinite_with_null",
+      "fill_null_with_cross_sectional_median",
+      "winsorize_at_median_plus_or_minus_5_times_1.4826_MAD",
+      "zscore_within_signal_date"
+    ],
+    "all_null_feature_policy": "fill_zero_and_emit_quality_event"
+  },
+  "neutralization": {
+    "target": "model_prediction_score",
+    "method": "cross_sectional_OLS_residualization",
+    "exposures": [
+      "intercept",
+      "log_total_market_cap",
+      "SW2021_level1_industry_dummies"
+    ],
+    "size_asof": "signal_date",
+    "size_max_backward_fill_trading_days": 5,
+    "missing_industry_bucket": "Unknown",
+    "portfolio_exposure_reporting_required": true,
+    "claim_as_full_barra_model": false
+  },
+  "models": {
+    "allowed": [
+      "ridge",
+      "lightgbm"
+    ],
+    "shared_input_required": true,
+    "random_seed": 42,
+    "selection_metric": "validation_mean_weekly_rank_ic",
+    "selection_tiebreakers": [
+      "validation_rank_icir",
+      "lower_model_complexity"
+    ],
+    "ridge": {
+      "alpha_grid": [
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ]
+    },
+    "lightgbm": {
+      "objective": "regression",
+      "num_leaves_grid": [
+        15,
+        31
+      ],
+      "learning_rate_grid": [
+        0.03,
+        0.05
+      ],
+      "min_data_in_leaf_grid": [
+        100,
+        300
+      ],
+      "lambda_l2_grid": [
+        1.0,
+        10.0
+      ],
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 1,
+      "max_boost_rounds": 2000,
+      "early_stopping_rounds": 100
+    },
+    "test_data_for_model_selection_forbidden": true
+  },
+  "rolling_folds": [
+    {
+      "fold": 1,
+      "train_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "validation_year": 2020,
+      "test_year": 2021
+    },
+    {
+      "fold": 2,
+      "train_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "validation_year": 2021,
+      "test_year": 2022
+    },
+    {
+      "fold": 3,
+      "train_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "validation_year": 2022,
+      "test_year": 2023
+    },
+    {
+      "fold": 4,
+      "train_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "validation_year": 2023,
+      "test_year": 2024
+    },
+    {
+      "fold": 5,
+      "train_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "validation_year": 2024,
+      "test_year": 2025
+    }
+  ],
+  "signal_evaluation": {
+    "primary_metric": "weekly_spearman_rank_ic",
+    "required_metrics": [
+      "rank_ic_mean",
+      "rank_ic_std",
+      "rank_icir",
+      "rank_ic_positive_ratio",
+      "newey_west_t_stat",
+      "yearly_rank_ic",
+      "cumulative_rank_ic"
+    ],
+    "newey_west_lags": 4,
+    "paired_model_test": "newey_west_test_on_weekly_ic_lightgbm_minus_ridge"
+  },
+  "portfolio": {
+    "diagnostic_groups": 5,
+    "top_bottom_is_diagnostic_only": true,
+    "long_portfolio": {
+      "selection": "top_50_by_neutralized_prediction_score",
+      "weighting": "equal_weight",
+      "rebalance": "weekly"
+    },
+    "execution": {
+      "suspension": "cannot_buy_or_sell",
+      "limit_up": "cannot_buy",
+      "limit_down": "cannot_sell",
+      "failed_sell": "retain_position",
+      "cash_and_holdings": "update_from_actual_fills",
+      "cost_base": "actual_traded_notional"
+    },
+    "one_way_cost_bps_scenarios": [
+      0,
+      10,
+      20
+    ],
+    "required_metrics": [
+      "annualized_excess_return",
+      "information_ratio",
+      "sharpe_ratio",
+      "maximum_drawdown",
+      "turnover",
+      "trading_cost",
+      "calendar_year_return",
+      "industry_exposure",
+      "size_exposure"
+    ]
+  },
+  "excluded_from_v1": [
+    "previously_mined_custom_factors",
+    "XGBoost",
+    "neural_networks",
+    "multiple_label_horizons",
+    "full_A_share_primary_universe",
+    "genetic_programming",
+    "portfolio_optimizer",
+    "test_set_hyperparameter_selection"
+  ],
+  "gates": [
+    "G0_research_definition",
+    "G1_data_and_point_in_time_universe",
+    "G2_alpha158_qlib_parity",
+    "G3_weekly_label_and_purged_splits",
+    "G4_ridge_baseline",
+    "G5_lightgbm",
+    "G6_signal_evaluation",
+    "G7_tradable_backtest",
+    "G8_report_and_interview_materials"
+  ]
+}

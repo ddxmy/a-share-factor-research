@@ -1,0 +1,52 @@
+{
+  "version": "a_share_data_domains_v1",
+  "as_of": "2026-07-22",
+  "domains": [
+    {
+      "domain": "market_price_volume",
+      "status": "enabled",
+      "endpoints": ["daily", "adj_factor"],
+      "fields": ["open", "high", "low", "close", "pre_close", "pct_chg", "vol", "amount", "adj_factor"],
+      "availability_rule": "observable_after_close_t"
+    },
+    {
+      "domain": "turnover_size_liquidity",
+      "status": "enabled",
+      "endpoints": ["daily_basic"],
+      "fields": ["turnover_rate", "turnover_rate_f", "volume_ratio", "total_share", "float_share", "free_share", "total_mv", "circ_mv"],
+      "availability_rule": "observable_after_close_t"
+    },
+    {
+      "domain": "valuation_dividend",
+      "status": "enabled",
+      "endpoints": ["daily_basic"],
+      "fields": ["pe", "pe_ttm", "pb", "ps", "ps_ttm", "dv_ratio", "dv_ttm"],
+      "availability_rule": "observable_after_close_t",
+      "enabled_range": ["2015-01-01", "2022-12-31"],
+      "audit_version": "factor_domain_audit_v1",
+      "audit_status": "pass",
+      "audit_report": "/Users/mingyuxu/Desktop/因子挖掘/data_lake/tushare/manifests/factor-domain-quality-20260722T150735788796-f5ec377c.json"
+    },
+    {
+      "domain": "money_flow",
+      "status": "planned_requires_permission_download_and_audit",
+      "endpoints": ["moneyflow"],
+      "fields": ["buy_sm_amount", "sell_sm_amount", "buy_md_amount", "sell_md_amount", "buy_lg_amount", "sell_lg_amount", "buy_elg_amount", "sell_elg_amount", "net_mf_amount"],
+      "availability_rule": "observable_after_close_t"
+    },
+    {
+      "domain": "financial_quality_growth",
+      "status": "planned_requires_pit_builder_and_audit",
+      "endpoints": ["income", "balancesheet", "cashflow", "fina_indicator", "express", "forecast", "disclosure_date"],
+      "fields": ["revenue", "n_income_attr_p", "total_assets", "total_liab", "n_cashflow_act", "roe", "grossprofit_margin", "debt_to_assets", "or_yoy", "netprofit_yoy"],
+      "availability_rule": "asof_ann_date_with_revision_policy"
+    },
+    {
+      "domain": "industry_universe_tradability",
+      "status": "enabled_control_only",
+      "endpoints": ["index_weight", "index_member_all", "stk_limit", "suspend_d", "stock_st"],
+      "fields": ["index_membership", "sw_l1_code", "up_limit", "down_limit", "suspension", "st_status"],
+      "availability_rule": "point_in_time_control_not_alpha_input"
+    }
+  ]
+}

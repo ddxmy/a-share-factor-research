@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Factor evaluation outputs (large binary)
+*.pq
+*.pkl
+result/
+tmp_result/
+tmp_data/
+
+# Compiled binary modules (platform-specific)
+*.so
+!run_factor.so
+!test_factor_demo.so
+
+# Environment variables (API keys)
+.env
+.env.*
+!.env.example
+
+# Local agent and recovery state
+.claude/
+.codex_backup/
+
+# Local databases and columnar datasets
+*.duckdb
+*.db
+*.parquet
+
+# Local research datasets and generated campaigns
+local_research/data/
+local_research/results/
+local_research/mining_state/
+
+# Reproducible notebook exports (the .ipynb source is versioned)
+local_research/alpha158_project/notebooks/*.html
+
+# Logs
+*.log
+
+# Factor mining output data
+data/experience_memory.json
+data/factor_library.json

@@ -1,0 +1,25 @@
+{
+  "stage": "G1.1",
+  "status": "pass",
+  "snapshot_id": "tushare-silver-2015-01-05-2026-07-16-86b4445468cf2907",
+  "build_manifest": "/Users/mingyuxu/Desktop/因子挖掘/data_lake/tushare/manifests/build-run-20260722T150836595381-c8eddf4e.json",
+  "quality_manifest": "/Users/mingyuxu/Desktop/因子挖掘/data_lake/tushare/manifests/data-quality-20260722T151048771524-9f29c218.json",
+  "selected_silver_files": 139,
+  "all_historical_silver_files": 376,
+  "rows": 11168836,
+  "duplicate_keys": 0,
+  "first_date": "2015-01-05",
+  "last_date": "2026-07-16",
+  "weekly_samples": 563,
+  "first_signal_date": "2015-01-09",
+  "last_signal_date": "2025-12-31",
+  "last_exit_date": "2026-01-12",
+  "membership_snapshots": 138,
+  "membership_rows": 41400,
+  "membership_changed_snapshots": 27,
+  "unresolved_gate": "G1.2 point-in-time effective membership intervals",
+  "outputs": {
+    "weekly_calendar": "/Users/mingyuxu/Desktop/因子挖掘/factor-mining-experiment-master/local_research/alpha158_project/artifacts/G1/weekly_calendar_g1_1.parquet",
+    "membership_snapshot_changes": "/Users/mingyuxu/Desktop/因子挖掘/factor-mining-experiment-master/local_research/alpha158_project/artifacts/G1/membership_snapshot_changes_g1_1.parquet"
+  }
+}

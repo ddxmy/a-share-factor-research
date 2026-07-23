@@ -1,0 +1,14 @@
+# ============================================================
+# FactorMiner: Self-Evolving Agent for Financial Alpha Discovery
+# ============================================================
+# Runtime: Python >= 3.10 (orchestrator)
+#          Python 3.8  (evaluation subprocess: run_factor + FactorTest .so)
+#          Evaluation env requires a separate conda env with numpy==1.24.4,
+#          pandas==2.0.3, and the .so modules on PYTHONPATH.
+#
+# Install: pip install -r requirements.txt
+
+# ---- Core Data Stack ----
+numpy>=2.0
+pandas>=2.2
+scipy>=1.12

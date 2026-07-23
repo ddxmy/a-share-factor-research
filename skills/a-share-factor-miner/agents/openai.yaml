@@ -1,0 +1,4 @@
+interface:
+  display_name: "A股 Pack-40 因子挖掘"
+  short_description: "一次生成并盲测40个A股候选因子，维护干净的分层因子库"
+  default_prompt: "Use $a-share-factor-miner to create one sealed Pack-40, evaluate it on discovery data only, update Red Sea state once, and write candidates only through the versioned active-library registry."

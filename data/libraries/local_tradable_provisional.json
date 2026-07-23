@@ -1,0 +1,30 @@
+{
+  "blocking_audits": [
+    "parameter grid was not pre-registered before factor validation",
+    "score config remains provisional"
+  ],
+  "factor_count": 1,
+  "factors": [
+    {
+      "csi500_rank_ic": 0.0099585438174329,
+      "discovery_tier": "discovery_qualified",
+      "economic_family": "conditional_regimes",
+      "factor_id": "local_ralph_v2_b07_10",
+      "factor_name": "Tail_Risk_Damped_Overnight_Drift",
+      "formula": "Neg(Cs_Rank(Div(Ts_Mean(Div(Sub(open, pre_close), pre_close), 20, 10), Add(Ts_MAD(Returns, 60, 30), 0.001))))",
+      "formula_hash": "0168eb982bf9eb2963140fa1dad048fcaf642a3ef5996af414fcfea3061fdc19",
+      "library_decision": "independent_predictive_and_tradable_candidate",
+      "liquid_all_a_rank_ic": 0.0083220110588911,
+      "max_abs_legacy_correlation": 0.1119072819514435,
+      "net_sharpe_10bps": 1.5400373682670994,
+      "net_sharpe_20bps": 0.4365214054811678,
+      "train_direction": 1,
+      "validation_rank_ic": 0.0155964959945934
+    }
+  ],
+  "formal_admission_count": 0,
+  "library_kind": "local_tradable_core",
+  "schema_version": "factor_library_registry_v1",
+  "source_artifact": "local_research/results/local_ralph_20260720_v2/final_review/libraries/tradable_core_candidates.json",
+  "status": "provisional_no_formal_admission"
+}

@@ -1,0 +1,25 @@
+{
+  "stage": "G1.2",
+  "status": "pass",
+  "index_code": "000300.SH",
+  "interval_semantics": "[effective_start, effective_end_exclusive)",
+  "baseline_snapshot": "2015-01-30",
+  "events": 26,
+  "regular_events": 22,
+  "temporary_events": 4,
+  "interval_rows": 750,
+  "historical_unique_members": 657,
+  "monthly_snapshots_reconciled": 132,
+  "monthly_snapshots_exact_match": 132,
+  "weekly_signal_dates": 563,
+  "weekly_membership_rows": 168900,
+  "min_weekly_constituents": 300,
+  "max_weekly_constituents": 300,
+  "duplicate_weekly_keys": 0,
+  "outputs": {
+    "events": "/Users/mingyuxu/Desktop/因子挖掘/factor-mining-experiment-master/local_research/alpha158_project/artifacts/G1/csi300_adjustment_events_g1_2.parquet",
+    "intervals": "/Users/mingyuxu/Desktop/因子挖掘/factor-mining-experiment-master/local_research/alpha158_project/artifacts/G1/hs300_membership_intervals_g1_2.parquet",
+    "weekly_membership": "/Users/mingyuxu/Desktop/因子挖掘/factor-mining-experiment-master/local_research/alpha158_project/artifacts/G1/weekly_hs300_membership_g1_2.parquet",
+    "reconciliation": "/Users/mingyuxu/Desktop/因子挖掘/factor-mining-experiment-master/local_research/alpha158_project/artifacts/G1/membership_reconciliation_g1_2.parquet"
+  }
+}

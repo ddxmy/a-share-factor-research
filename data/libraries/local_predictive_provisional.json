@@ -1,0 +1,62 @@
+{
+  "blocking_audits": [
+    "parameter grid was not pre-registered before factor validation",
+    "score config remains provisional"
+  ],
+  "factor_count": 3,
+  "factors": [
+    {
+      "csi500_rank_ic": 0.0099585438174329,
+      "discovery_tier": "discovery_qualified",
+      "economic_family": "conditional_regimes",
+      "factor_id": "local_ralph_v2_b07_10",
+      "factor_name": "Tail_Risk_Damped_Overnight_Drift",
+      "formula": "Neg(Cs_Rank(Div(Ts_Mean(Div(Sub(open, pre_close), pre_close), 20, 10), Add(Ts_MAD(Returns, 60, 30), 0.001))))",
+      "formula_hash": "0168eb982bf9eb2963140fa1dad048fcaf642a3ef5996af414fcfea3061fdc19",
+      "library_decision": "independent_predictive_and_tradable_candidate",
+      "liquid_all_a_rank_ic": 0.0083220110588911,
+      "max_abs_legacy_correlation": 0.1119072819514435,
+      "net_sharpe_10bps": 1.5400373682670994,
+      "net_sharpe_20bps": 0.4365214054811678,
+      "train_direction": 1,
+      "validation_rank_ic": 0.0155964959945934
+    },
+    {
+      "csi500_rank_ic": 0.0263135201845373,
+      "discovery_tier": "discovery_qualified",
+      "economic_family": "price_pressure_reversal",
+      "factor_id": "local_ralph_v2_b04_02",
+      "factor_name": "Intraday_Pressure_Per_Turnover",
+      "formula": "Neg(Cs_Rank(Div(Div(Sub(close, open), open), Add(turn, 0.1))))",
+      "formula_hash": "1ec2a37dff08ac648ebc606a94ab8ff241bad60c8f4913f6ce17398c4fbf4167",
+      "library_decision": "predictive_replacement_candidate",
+      "liquid_all_a_rank_ic": 0.0222827614093915,
+      "max_abs_legacy_correlation": 0.5605783089792896,
+      "net_sharpe_10bps": -1.7890416168532255,
+      "net_sharpe_20bps": -5.801160874091803,
+      "train_direction": 1,
+      "validation_rank_ic": 0.0247158113534378
+    },
+    {
+      "csi500_rank_ic": 0.0148998321813247,
+      "discovery_tier": "discovery_qualified",
+      "economic_family": "price_volume_turnover_divergence",
+      "factor_id": "local_ralph_v2_b02_04",
+      "factor_name": "Return_Turnover_Residual_Pressure",
+      "formula": "Neg(Cs_Rank(Ts_Mean(Ts_Residual(Returns, Ts_Return(turn, 1), 20, 10), 5, 3)))",
+      "formula_hash": "2be04cf8f128968b9ac32cc509545412742adbe3ac0720853ef7370e2c724937",
+      "library_decision": "predictive_replacement_candidate",
+      "liquid_all_a_rank_ic": 0.0117432996684064,
+      "max_abs_legacy_correlation": 0.5802065442044143,
+      "net_sharpe_10bps": -0.8579323070769598,
+      "net_sharpe_20bps": -2.79935115819603,
+      "train_direction": 1,
+      "validation_rank_ic": 0.0159016120261218
+    }
+  ],
+  "formal_admission_count": 0,
+  "library_kind": "local_predictive_core",
+  "schema_version": "factor_library_registry_v1",
+  "source_artifact": "local_research/results/local_ralph_20260720_v2/final_review/libraries/predictive_core_candidates.json",
+  "status": "provisional_no_formal_admission"
+}
