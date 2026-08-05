@@ -1,0 +1,8 @@
+# Set this in your shell; do not commit the value or any data beneath it.
+A_SHARE_DATA_ROOT=/path/to/private/a-share-research-data
+
+# The runners expect private, derived inputs below:
+# $A_SHARE_DATA_ROOT/alpha158/inputs/G2/alpha158_catalog.csv
+# $A_SHARE_DATA_ROOT/alpha158/inputs/G3/weekly_model_panel_v1/year=*/part-0000.parquet
+# $A_SHARE_DATA_ROOT/alpha158/inputs/G3/fold_assignments_v1.parquet
+# Outputs are written below $A_SHARE_DATA_ROOT/alpha158/outputs/.

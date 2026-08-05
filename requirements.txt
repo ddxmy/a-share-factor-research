@@ -1,0 +1,7 @@
+duckdb>=1.1
+lightgbm>=4.5
+numpy>=1.26
+pandas>=2.2
+pyarrow>=16
+pytest>=8.0
+scikit-learn>=1.5

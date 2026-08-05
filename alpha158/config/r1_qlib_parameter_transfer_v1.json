@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "research_id": "hs300_alpha158_weekly_r1_qlib_parameter_transfer",
+  "purpose": "Transfer Qlib published LightGBM parameters to the frozen PIT weekly Alpha158 panel.",
+  "source_protocol": "Qlib_R0_Alpha158_LightGBM_published_benchmark",
+  "input_artifacts": {
+    "model_panel_root": "artifacts/G3/weekly_model_panel_v1",
+    "fold_assignments": "artifacts/G3/fold_assignments_v1.parquet",
+    "feature_catalog": "artifacts/G2/alpha158_catalog.csv",
+    "comparison_predictions": "artifacts/G5/lightgbm_test_predictions_v1.parquet"
+  },
+  "selection": "validation_best_iteration_only",
+  "training_label_preprocessing": "cross_sectional_zscore_per_signal_date",
+  "random_seed": 42,
+  "lightgbm": {
+    "objective": "regression",
+    "metric": "None",
+    "loss": "mse",
+    "colsample_bytree": 0.8879,
+    "learning_rate": 0.2,
+    "subsample": 0.8789,
+    "lambda_l1": 205.6999,
+    "lambda_l2": 580.9768,
+    "max_depth": 8,
+    "num_leaves": 210,
+    "num_threads": 4,
+    "deterministic": true,
+    "max_boost_rounds": 2000,
+    "early_stopping_rounds": 100
+  },
+  "rolling_folds": [
+    {"fold": 1, "train_years": [2015, 2016, 2017, 2018, 2019], "validation_year": 2020, "test_year": 2021},
+    {"fold": 2, "train_years": [2016, 2017, 2018, 2019, 2020], "validation_year": 2021, "test_year": 2022},
+    {"fold": 3, "train_years": [2017, 2018, 2019, 2020, 2021], "validation_year": 2022, "test_year": 2023},
+    {"fold": 4, "train_years": [2018, 2019, 2020, 2021, 2022], "validation_year": 2023, "test_year": 2024},
+    {"fold": 5, "train_years": [2019, 2020, 2021, 2022, 2023], "validation_year": 2024, "test_year": 2025}
+  ]
+}

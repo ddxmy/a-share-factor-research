@@ -1,0 +1,21 @@
+# Python test and bytecode output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local data, research framework, and secret-bearing files
+*.duckdb
+*.db
+*.parquet
+*.pq
+*.ipynb
+*.log
+*.so
+.env
+.env.*
+/.claude/
+/.superpowers/
+/.codex_backup/
+/data/
+/factor_script/
+/factor_framework/
