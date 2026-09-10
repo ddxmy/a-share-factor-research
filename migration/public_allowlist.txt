@@ -17,6 +17,7 @@ manual-factor-lab/config/
 manual-factor-lab/factor_registry.csv
 manual-factor-lab/factors/
 manual-factor-lab/research_protocol.md
+manual-factor-lab/research_snapshot.md
 manual-factor-lab/src/a_share_factor_research/
 manual-factor-lab/src/factor_modules/
 manual-factor-lab/src/factors.py

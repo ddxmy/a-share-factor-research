@@ -11,6 +11,8 @@ bridges.
 The immutable candidate list, field contract, availability rule, hypothesis,
 and direction are in [factor_registry.csv](factor_registry.csv). The evaluation
 and admission rules are in [research_protocol.md](research_protocol.md).
+For a concise research-facing overview, see
+[research_snapshot.md](research_snapshot.md).
 
 ## Private data contract
 
