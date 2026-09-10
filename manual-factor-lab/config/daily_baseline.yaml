@@ -1,0 +1,11 @@
+universe: pit_csi300
+signal_price: close
+execution_price: next_open
+signal_frequency_days: 1
+holding_period_days: [1, 5, 20]
+horizons: [1, 5, 20]
+ic_metric: spearman_rank_ic
+top_k: 30
+quintiles: 5
+one_way_cost_bps: 10
+test_years: [2021, 2022, 2023, 2024, 2025]

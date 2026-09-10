@@ -1,5 +1,6 @@
 # Python test and bytecode output
 __pycache__/
+.DS_Store
 *.py[cod]
 .pytest_cache/
 
@@ -19,3 +20,7 @@ __pycache__/
 /data/
 /factor_script/
 /factor_framework/
+
+# Private manual-factor walkthroughs and accidental in-repository run output
+/manual-factor-lab/notebooks/
+/manual-factor-lab/runs/

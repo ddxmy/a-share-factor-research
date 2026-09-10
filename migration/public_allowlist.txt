@@ -13,7 +13,12 @@ alpha158/scripts/
 alpha158/src/alpha158_research/
 alpha158/tests/
 manual-factor-lab/README.md
+manual-factor-lab/config/
 manual-factor-lab/factor_registry.csv
+manual-factor-lab/factors/
 manual-factor-lab/research_protocol.md
+manual-factor-lab/src/a_share_factor_research/
+manual-factor-lab/src/factor_modules/
 manual-factor-lab/src/factors.py
 manual-factor-lab/tests/
+a_share_factor_research/
